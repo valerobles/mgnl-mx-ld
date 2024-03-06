@@ -1,0 +1,14 @@
+$ref: /module-a/dialogs/pages/l-page.yaml
+form:
+  properties:
+    title:
+      $override: true
+      required: true
+      $type: richTextField
+      label: Title ...
+  layout:
+    tabs:
+      tabMain:
+        $override: true
+        fields:
+          - name: titleee

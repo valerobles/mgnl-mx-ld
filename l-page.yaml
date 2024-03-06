@@ -1,0 +1,36 @@
+form:
+  properties:
+    title:
+      $type: textField
+      i18n: true
+      label: title
+    navigationTitle:
+      $type: textField
+      i18n: true
+      label: navigation title
+    windowTitle:
+      $type: textField
+      i18n: true
+      label: window title
+    keywords:
+      $type: textField
+      i18n: true
+      label: keywords
+      rows: 3
+    description:
+      $type: textField
+      i18n: true
+      label: description
+      rows: 5
+  layout:
+    $type: tabbedLayout
+    tabs:
+      tabMain:
+        fields:
+          - name: title
+          - name: navigationTitle
+          - name: windowTitle
+      tabMeta:
+        fields:
+          - name: keywords
+          - name: description
