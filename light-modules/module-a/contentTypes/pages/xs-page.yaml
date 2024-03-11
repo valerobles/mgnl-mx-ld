@@ -1,4 +1,4 @@
-$ref: /module-a/dialogs/pages/l-page.yaml
+$ref: /module-a/contentTypes/pages/l-page.yaml
 form:
   properties:
     title:
