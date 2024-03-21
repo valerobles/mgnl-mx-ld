@@ -11,4 +11,4 @@ form:
       tabMain:
         $override: true
         fields:
-          - name: titleee
+          - name: newTitle
