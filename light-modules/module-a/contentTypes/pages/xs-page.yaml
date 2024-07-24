@@ -5,7 +5,7 @@ form:
       $override: true
       required: true
       $type: richTextField
-      label: bla
+      label: Title
   layout:
     tabs:
       tabMain:
