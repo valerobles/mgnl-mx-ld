@@ -1,0 +1,4 @@
+name: description
+required: true
+type: richText
+$ref: '/module-a/includes/i18n.yaml'
