@@ -1,2 +1,2 @@
 model: foo
-$ref: /yamlParserTestModule/includes/propertiesWithRefs.yaml
+$ref: /includes/propertiesWithRefs.yaml
