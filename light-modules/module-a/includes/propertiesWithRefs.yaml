@@ -3,4 +3,3 @@ properties:
     type: Date
   - name: gender
   - name: shortBio
-  - $ref: /module-a/includes/description.yaml
