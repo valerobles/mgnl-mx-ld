@@ -1,2 +1,0 @@
-model: foo-bar
-$ref: /module-a/includes/propertiesWithRefs.yaml
