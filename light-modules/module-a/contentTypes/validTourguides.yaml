@@ -1,0 +1,14 @@
+datasource:
+  workspace: tourguides
+  namespaces:
+    - mt
+  autoCreate: true
+
+model:
+  nodeType: mt:tourGuide
+  properties:
+    - name: description
+      type: String
+      i18n: true
+    - $ref: '/module-a/includes/other-description.yaml'
+  subModels: []
