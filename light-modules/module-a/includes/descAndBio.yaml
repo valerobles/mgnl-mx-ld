@@ -1,0 +1,3 @@
+name: description
+required: true
+$ref: '/test-module/includes/type-i18n.yaml'

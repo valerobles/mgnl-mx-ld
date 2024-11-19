@@ -1,0 +1,4 @@
+name: shortBio
+required: false
+type: String
+i18n: true
