@@ -1,0 +1,16 @@
+datasource:
+  workspace: tourguides
+  namespaces:
+    - mt
+  autoCreate: true
+
+model:
+  nodeType: mt:tourGuide
+  $ref: '/test-module/contentTypes/properties.yaml'
+  subModels:
+    - name: foo
+      nodeType: mt:tourGuide
+      $ref: '/test-module/contentTypes/properties.yaml'
+    - name: bar
+      nodeType: mt:tourGuide
+      $ref: '/test-module/contentTypes/properties.yaml'

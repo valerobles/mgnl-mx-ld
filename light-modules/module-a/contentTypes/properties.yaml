@@ -1,0 +1,10 @@
+properties:
+  - $ref: '/test-module/includes/description.yaml'
+
+  - name: description_ins
+    type: String
+    i18n: true
+
+  - $ref: '/test-module/includes/shortBio.yaml'
+
+  - $ref: '/test-module/includes/descAndBio.yaml'
